@@ -14,9 +14,9 @@ module.exports = {
 
   entry: path.join(__dirname, "src", "index.tsx"),
 
-  // resolve: {
-  //   extensions: [".tsx", ".ts", ".js", ".jsx", ".json"],
-  // },
+  resolve: {
+    extensions: [".tsx", ".ts", ".js", ".jsx", ".json"],
+  },
 
   output: {
     publicPath: "/",
