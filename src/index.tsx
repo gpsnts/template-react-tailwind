@@ -2,17 +2,12 @@ import "./style.css";
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Nav from "./components/Nav/Nav.tsx";
-import Button from "./components/Button/Button.tsx";
-import Alert from './components/Alert/Alert.tsx';
-
 ReactDOM.render(
 	<React.StrictMode>
-		<Nav />
-		<div className="container mt-5 mx-auto px-2">
-			<Button />
-			<Alert />
-		</div>
+		<div>Hello, uord</div>
+		<h1>H1</h1>
+		<h2>H2</h2>
+		<h3>H3</h3>
 	</React.StrictMode>,
 	document.getElementById("root")
 );

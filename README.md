@@ -1,6 +1,6 @@
 # template-react-tailwind
 
-My own React app template without using [Tailwind CSS](https://tailwindcss.com) without any bload and fully customizable
+My own React app template using [Tailwind CSS](https://tailwindcss.com) without any bload and fully customizable
 
 ## Important
 
