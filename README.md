@@ -4,4 +4,4 @@ My own React app template using [Tailwind CSS](https://tailwindcss.com) without 
 
 ## Important
 
-To run a ```build``` project, as well in "create-react-app", ```serve -s build``` is needed
+To run a `build` project, as well in "create-react-app", `serve -s build` is needed

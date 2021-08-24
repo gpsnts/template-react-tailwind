@@ -1,17 +1,18 @@
 @import url("./reset.css");
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
-html, body {
-	height: 100%;
-	width: 100%;
-	overflow-x: hidden;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 @tailwind base;

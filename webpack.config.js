@@ -1,14 +1,13 @@
-
 const HtmlWebPackPlugin = require("html-webpack-plugin"),
-// 			Dotenv = require("dotenv-webpack"),
-			path = require("path");
+  // 			Dotenv = require("dotenv-webpack"),
+  path = require("path");
 
 module.exports = {
   devServer: {
     historyApiFallback: true,
     contentBase: path.join(__dirname, "dist"),
     compress: true,
-		watchContentBase: true,
+    watchContentBase: true,
     port: 8080,
   },
 
@@ -30,12 +29,12 @@ module.exports = {
         test: /\.(ts|tsx)?$/,
         use: "ts-loader",
         exclude: /node_modules/,
-				use: {
+        use: {
           loader: "babel-loader",
           options: {
-            cacheDirectory: true
-          }
-        }
+            cacheDirectory: true,
+          },
+        },
       },
       {
         test: /\.html$/,
@@ -57,9 +56,9 @@ module.exports = {
       filename: "./index.html",
     }),
 
-		// new Dotenv({
-		// 	path: path.join(__dirname, ".env"),
-		// 	silent: true
-		// })
+    // new Dotenv({
+    // 	path: path.join(__dirname, ".env"),
+    // 	silent: true
+    // })
   ],
 };
