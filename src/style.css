@@ -9,12 +9,14 @@ ul {
 }
 
 html,
-body {
+body,
+#root {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
 }
 
 @tailwind base;
+@tailwind screens;
 @tailwind components;
 @tailwind utilities;
