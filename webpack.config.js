@@ -5,9 +5,8 @@ const HtmlWebPackPlugin = require("html-webpack-plugin"),
 module.exports = {
   devServer: {
     historyApiFallback: true,
-    contentBase: path.join(__dirname, "dist"),
+    static: path.join(__dirname, "dist"),
     compress: true,
-    watchContentBase: true,
     port: 8080,
   },
 
